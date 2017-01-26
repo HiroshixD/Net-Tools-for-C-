@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <script src="../vendor/helper.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/code.css" rel="stylesheet">
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+
+
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ASPNET DEVELOPER TOOLS</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 1</strong>
+                                        <span class="pull-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="pull-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 3</strong>
+                                        <span class="pull-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 4</strong>
+                                        <span class="pull-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#" onclick="logout()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="code.html"><i class="fa fa-dashboard fa-fw"></i> Generador de código</a>
+                        </li>
+                         <li>
+                            <a href="ayuda.html"><i class="fa fa-dashboard fa-fw"></i> Tutoriales de ayuda</a>
+                        </li>
+                        <li>
+                            <a href="linq.html"><i class="fa fa-dashboard fa-fw"></i> LinQ DBContext Queries</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header">Generador de codigo</h3>
+                </div>
+
+        <table class="table table-bordered" style="width:50%;" id="mitabla">
+        <tr id="tableHeader">
+            <th colspan="2" style="text-align: center;">
+                <label id="labelTablename" >Nombre de Tabla (Click para editar)</label>
+                <input type="text" id="tableName" placeholder="INGRESA EL NOMBRE DE TU TABLA" class="form-control input-sm">
+            </th>
+        </tr>
+        <tr>                
+            <th>
+            Nombre de tu campo
+            </th>
+            <th>
+            Tipo de Dato
+            </th>
+
+        </tr>
+
+        <tbody>
+            <tr class="first">
+            <td><input type="text" id="txtCampo1" class="form-control input-sm" disabled></td>
+            <td>
+            <select class="form-control" id="ddlCampo1">
+                <option value="int" selected disabled>Int</option>
+            </select>
+            </td>
+            <td style="text-align: center; vertical-align: middle;"><button class="btn btn-info"  id="agregar">+</button></td>
+            </tr>
+            
+        </tbody>
+  <tfoot>
+    <tr style="text-align: center;">
+      <td colspan="2">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default" id="codefirst">Code First</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default" id="databasefirst">Database First</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default" id="modelfirst">Model First</button>
+  </div>
+</div>
+
+      </td>
+    </tr>
+  </tfoot>
+        </table>
+
+<!-- Single button -->
+<table class="table table-bordered" style="display:none; width:50%;" id="codefirsttable">
+<thead>
+    <th colspan="3" style="text-align: center;">ASP.NET CODE FIRST</th>
+</thead>
+  <tbody>
+  <tr >
+    <td style="text-align: center;">Clase Modelo</td>
+    <td style="text-align: center;"><button class="btn btn-info" id="modelClassCF" data-toggle="modal" data-target="#modalCode">Ver Código</button>
+    </td>
+        <td style="text-align: center;">
+        <button class="btn btn-danger" data-toggle="modal" id="modelClassInfo" data-target="#modalCode"><i class="fa fa-info"></i></button>
+    </td>
+  </tr>
+  <tr >
+    <td style="text-align: center;">Clase Contexto (DBContext)</td>
+    <td style="text-align: center;">
+        <button class="btn btn-info" data-toggle="modal" id="dbContext" data-target="#modalCode">Ver Código</button>
+
+    </td>
+    <td style="text-align: center;">
+        <button class="btn btn-danger" data-toggle="modal" id="contextClassInfo" data-target="#modalCode"><i class="fa fa-info"></i></button>
+    </td>
+
+  </tr>
+
+    <tr >
+    <td style="text-align: center;">Jquery / JSON Crud / Index </td>
+    <td style="text-align: center;">
+        <button class="btn btn-info" data-toggle="modal" id="jqueryIndex" data-target="#modalCode">Ver Código</button>
+
+    </td>
+    <td style="text-align: center;">
+        <button class="btn btn-danger" data-toggle="modal" id="jqueryIndexInfo" data-target="#modalCode"><i class="fa fa-info"></i></button>
+    </td>
+
+  </tr>
+
+  </tbody>
+</table>
+
+<table class="table table-bordered" style="display:none; width:50%;" id="databasefirsttable">
+<thead>
+    <th style="text-align: center;">ASP.NET DATABASE FIRST</th>
+</thead>
+  <tbody>
+    
+
+  </tbody>
+</table>
+
+<table class="table table-bordered" style="display:none; width:50%;" id="modelfirsttable">
+  <thead>
+    <th style="text-align: center;">ASP.NET MODEL FIRST</th>
+  </thead>
+  <tbody>
+    
+
+  </tbody>
+</table>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#tableName').hide();
+      $('#txtCampo1').val("Id");
+
+      $('#tableHeader').click(function() {
+        $('#labelTablename').hide();
+        $('#tableName').show();
+        $('#tableName').focus();
+            $(this).keypress(function(e) {
+                if(e.which == 13) {
+                  var nombre = $('#tableName').val();
+                  $('#tableName').hide();
+                  $('#labelTablename').text(nombre);
+                  $('#labelTablename').show();
+                }
+            });
+      });
+
+      $('#tableName').focusout(function() {
+        var nombre = $('#tableName').val();
+        $('#tableName').hide();
+        $('#labelTablename').text(nombre);
+        $('#labelTablename').show();
+      });
+
+
+      $('#agregar').click(function() {
+          var rowCount = $('#mitabla tr').length - 3;
+          var qty = rowCount + 1;
+          if(rowCount === 1) {
+            $('#mitabla tr.first').after('<tr class="second">' +
+                                '<td><input type="text" id="txtCampo' + qty +'" class="form-control input-sm" placeholder="Ingresa el nombre del Campo ' + qty + ' "></td><td>' + 
+                                '<select class="form-control" id="ddlCampo' + qty + '">' +
+                                '<option value="" selected disabled>Seleccione</option>' +                                
+                                '<option value="int">Int</option>' +
+                                '<option value="string">String</option>' +
+                                '<option value="DateTime">DateTime</option></select>' +
+                                '</td></tr>');            
+          } else {
+            $('#mitabla tr.second:last').after('<tr class="second">' +
+                                '<td><input type="text" id="txtCampo' + qty +'" class="form-control input-sm" placeholder="Ingresa el nombre del Campo ' + qty + ' "></td><td>' + 
+                                '<select class="form-control" id="ddlCampo' + qty + '">' +
+                                '<option value="" selected disabled>Seleccione</option>' +                                
+                                '<option value="int">Int</option>' +
+                                '<option value="string">String</option>' +
+                                '<option value="DateTime">DateTime</option></select>' +
+                                '</td></tr>'); 
+          }
+
+      });
+
+
+      $('#codefirst').click(function() {
+        var nombre = $('#tableName').val();
+        if(nombre === '') {
+          alert('Por favor ingresa un nombre válido para la tabla');
+          return;
+        }
+
+        var rows = $('#mitabla tr').length - 3;
+        for (var i = 1; i<rows+1; i ++) {
+          var option = document.getElementById('ddlCampo' + i);
+          var selected = option.options[option.selectedIndex].value;
+          var input = document.getElementById('txtCampo' + i).value;
+          if(selected === '' || input === '') {
+            alert('Por favor verifica el ' + i + ' campo e intenta de nuevo');
+            return;
+          }
+        }
+
+        $('#codefirsttable').show();
+        $('#databasefirsttable').hide();
+        $('#modelfirsttable').hide();
+      });
+      $('#databasefirst').click(function() {
+        $('#codefirsttable').hide();
+        $('#databasefirsttable').show();
+        $('#modelfirsttable').hide();
+      });
+        $('#modelfirst').click(function() {
+        $('#codefirsttable').hide();
+        $('#databasefirsttable').hide();
+        $('#modelfirsttable').show();
+      });
+
+      $('#modelClassCF').click(function() {
+        $('#modalContent').empty();
+        $('#modalDiv').remove();
+        $('#labelHeader').text('Code First Model Code');
+        $("#principalModal").attr('class', 'modal-dialog');
+        $('#pre').remove();
+        $('#step1').remove();
+        var preclass = '<pre id="pre" style="background-color: #1A2421"><code id="codigo"></code></pre>';
+        $('#modalContent').append(preclass);
+
+        $('#codigo').empty();
+        var rows = $('#mitabla tr').length - 3;
+        var nombre = $('#tableName').val();
+        var header = '<span class="blueclass">public class</span><span class="darkgreen"> ' + nombre + '</span></br><span class="white">{</span><br/>';
+        var footer = '</br><span class="white">}</span>';
+        $('#codigo').append(header);
+
+        for (var i = 1; i < rows + 1; i ++) {
+          var option = document.getElementById('ddlCampo' + i);
+          var selected = option.options[option.selectedIndex].value;
+          var input = document.getElementById('txtCampo' + i).value;
+          var codigo = '    <span class="blueclass">public</span><span class="blueclass"> '+ selected + '</span><span class="white" > ' +  input  + ' {</span> <span class="blueclass">get</span><span class="white">;</span> <span class="blueclass">set</span><span class="white">; }</span><br/>';
+          $('#codigo').append(codigo);
+        }
+
+      $('#codigo').append(footer);
+      });
+
+    $('#modelClassInfo').click(function() {
+      $('#modalContent').empty();
+      $('#modalDiv').remove();
+      $('#labelHeader').text('Cómo implementar el código?');
+      $('#principalModal').attr('class', 'modal-dialog modal-lg');
+      $('#pre').remove();
+      var newdiv = '<div id="modalDiv"></div>';
+      $('#modalContent').append(newdiv);
+      var message = '<label id="message">Si tu proyecto no está orientado a 3 capas deberías ir a la carpeta models autocreada por entity framework, una vez situado en ésta carpeta, click derecho Agregar clase y creamos una clase con la tabla que creamos aquí</label>';
+      var image = '<img id="step1" src="../images/CodeFirstHelp.png">';
+      $('#modalDiv').append(message);
+      $('#modalDiv').append(image); 
+    });
+
+    $('#dbContext').click(function() {
+    $('#modalContent').empty();
+      var tablename = $('#tableName').val();
+      $('#modalDiv').remove();
+      $('#pre').remove();
+      $('#labelHeader').text('Modificar o crear tu DBContext');
+      $('#principalModal').attr('class', 'modal-dialog');
+      var preclass = '<pre id="pre" style="background-color: #1A2421"><code id="codigo"></code></pre>';
+      $('#modalContent').append(preclass);
+      $('#codigo').empty();
+      var header = '<span class="blueclass">public class</span><span class="darkgreen"> MyContext </span><span class="white">: </span><span class="darkgreen">DbContext</span></br><span class="white">{</span><br/>';
+
+      var content = '<span class="blueclass">    public</span><span class="white"> MyContext()</span><br/>' +
+      '<span class="white">        :</span><span class="blueclass">base</span><span class="white">(</span><span class="rose">"MyConnectionString"</span><span class="white">)</span><br/><span class="white">    {</span><br/><br/><span class="white">    }</span><br/>';
+
+      var tables = '<span class="blueclass">public</span><span class="darkgreen"> DbSet</span><span class="white">&lt;</span><span ' +
+      'class="darkgreen">' + tablename + '</span><span class="white">&gt; </span><span class="white">' + tablename + 's </span><span class="white">' +
+      '{ </span><span class="blueclass">get</span><span class="white">; </span><span class="blueclass">set</span>' +
+      '<span class="white">; </span><span class="white">}</span>';
+      $('#codigo').append(header, content,tables);
+
+      //  $('#codigo').append(tables);
+    });
+
+    $('#contextClassInfo').click(function() {
+      var message = '<label class="white" id="message">Si tu proyecto no está orientado a 3 capas deberías verificar si tienes una clase contexto en "Models" si es así debes editarla con el nombre de tabla nuevo, no olvides las configuraciones de connectionString como también referenciar el ensamblado <span class="blueclass">using System.Data.Entity<span>;</label>';
+
+      $('#modalDiv').remove();
+      $('#pre').remove();
+      $('#labelHeader').text('Consejos');
+      $('#principalModal').attr('class', 'modal-dialog modal-lg');
+      var preclass = '<pre id="pre" style="background-color: #1A2421"><code id="codigo"></code></pre>';
+      var connectionStringHeader = '<span class="white">&lt;</span><span class="blueclass">connectionStrings</span><span class="white">&gt;</span><br>';
+
+      var connection = '<span class="white">&lt;</span><span class="blueclass">add </span><span class="lightblue">name</span>' +
+      '<span class="white">= "MyConnectionString" </span><span class="lightblue">connectionString</span>' +
+      '<span class="white">="Data Source=(LocalDb)\\v11.0;AttachDbFilename=|DataDirectory|\\MyDatabase.mdf;Initial Catalog=MyDatabase;Integrated Security=True" </span><span class="lightblue">providerName</span>' +
+      '<span class="white">="System.Data.SqlClient" /></span><br/>';
+
+      var connectionStringFooter =  '<span class="white">&lt;/</span><span class="blueclass">connectionStrings</span><span class="white">&gt;</span><br/><br/>';
+
+      var aditional = '<span class="darkgreen">//  Recuerda que para acceder a tus datos vía SQL Server en Codefirst deberías entrar a este servidor con tus credenciales ->   (localdb)\\v11.0  </span>';
+
+      $('#modalContent').append(preclass);
+      $('#codigo').empty();
+      $('#codigo').append(message, connectionStringHeader, connection, connectionStringFooter, aditional); 
+    });
+
+        $('#jqueryIndex').click(function() {
+            var htmlcode = '<pre id="pre" style="background-color: #1A2421"><code id="htmlcode"></code></pre>';
+            var jsoncode = '<pre id="pre" style="background-color: #1A2421"><code id="jsoncode"></code></pre>';
+            var controllercode = '<pre id="pre" style="background-color: #1A2421"><code id="controllercode"></code></pre>';
+
+            $('#modalContent').empty();
+            var tabs = 
+            '<div class="col-md-12">' +
+            '<ul class="nav nav-tabs"><li class="active"><a data-toggle="tab" id="htmlclick" href="#html">HTML</a></li>'+
+                '<li><a data-toggle="tab" id="jsonclick" href="#json">JSON</a></li>' + 
+                '<li><a data-toggle="tab" id ="controllerclick" href="#controller">CONTROLLER</a></li>'+
+            ' </ul><div class="tab-content"><div id="html" class="tab-pane fade in active">' +
+            ' </div><div id="json" class="tab-pane fade"></div><div id="controller" class="tab-pane fade">' +
+            '</div></div></div>';
+            $('#modalContent').append(tabs);
+
+            $('#htmlclick').click(function() {
+                var tablename = $('#tableName').val();
+                 $('#principalModal').attr('class', 'modal-dialog');
+                $('#html').empty();
+                $('#html').append(htmlcode);
+                $('#htmlcode').append('<span class="white">&lt;h2&gt;Index&lt;/h2&gt;</span><br/>');
+                $('#htmlcode').append('<span>&lt;p&gt;</span><br/>');
+                $('#htmlcode').append('<span class="white">&lt;p&gt;</span><br/><span class="white">&lt;a href="/' + tablename +'/Create"&gt;Crear Nuevo ' +tablename+ '&lt;/a&gt;</span><br/>');
+                $('#htmlcode').append('<span class="white">&lt;/p&gt;</span><br/>');
+                $('#htmlcode').append('<span class="white">&lt;table class="table"&gt;</span></br>');
+                $('#htmlcode').append('<span class="white">    &lt;tr id="tableheader"&gt;</span></br>');
+                var rows = $('#mitabla tr').length - 3;
+                  for (var i = 1; i<rows+1; i ++) {
+                    var input = document.getElementById('txtCampo' + i).value;
+                    $('#htmlcode').append('<span class="white">        &lt;th&gt;</span></br>');
+                    $('#htmlcode').append('<span class="white">            ' + input + '</span></br>');
+                    $('#htmlcode').append('<span class="white">        &lt;/th&gt;</span></br>');
+                  }
+                $('#htmlcode').append('<span class="white">        &lt;th&gt;Acciones&lt;/th&gt;</span></br>');
+                $('#htmlcode').append('<span class="white">    &lt;/tr&gt;</span></br>');
+                $('#htmlcode').append('<span class="white">&lt;tbody id="data"&gt;</span></br>');
+                $('#htmlcode').append('<span class="white">    &lt;/tbody&gt;</span></br>');
+                $('#htmlcode').append('<span class="white">&lt;/table&gt;</span></br>');
+
+            });
+
+            $('#jsonclick').click(function() {
+                var tablename = $('#tableName').val();
+                $('#principalModal').attr('class', 'modal-dialog modal-lg');
+                var rows = $('#mitabla tr').length - 3;
+                $('#json').empty();
+                $('#json').append(jsoncode);
+                $('#jsoncode').append('<span class="white">&lt;<span class="script">script</span>&gt;</span><br/>');
+                $('#jsoncode').append('<span class="white">    $(document).ready(<span class="function">function</span> () {</span><br/>');
+                $('#jsoncode').append('<span class="white">        $.ajax({</span><br/>');
+                $('#jsoncode').append('<span class="white">            type: <span class="type">"GET"</span>,</span><br/>');
+                $('#jsoncode').append('<span class="white">            url: <span class="url">"/'+ tablename+ '/ListarTodos"</span>, <span class="darkgreen">// Can be Editable</span></span><br/>');
+                $('#jsoncode').append('<span class="white">            success: <span class="function">function</span> (data) {</span><br/>');
+                $('#jsoncode').append('<span class="white">                <span class="var">var</span> tr;</span><br/>');
+                $('#jsoncode').append('<span class="white">                <span class="for">for</span> (var i = 0; i &lt; data.length; i++) {</span><br/>');
+                $('#jsoncode').append('<span class="white">                    tr = $(<span class="comma">"&lt;tr/&gt;"</span>);</span><br/>');
+                for (var i = 1; i<rows+1; i ++) {
+                  var input = document.getElementById('txtCampo' + i).value;
+                  $('#jsoncode').append('<span class="white">                    tr.append(<span class="comma">"&lt;td&gt;"</td> + data[i].'+ input +' + "&lt;/td&gt;");</span></br>');
+                }
+
+                $('#jsoncode').append('<span class="white">                    tr.append( <span class="url">"&lt;td&gt;&lt;a href=/'+tablename+'/Edit/"</span> + data[i].Id +  <span class="url">"&gt;Editar &lt;/a&gt; | &lt;a href=/'+tablename+'/Details/"</span> + data[i].Id +  <span class="url">"&gt;Detalles &lt;/a&gt; | &lt;a href=/'+tablename+'/Delete/"</span> + data[i].Id +  <span class="url">"&gt;Eliminar&lt;/a&gt;&lt;/td&gt;"</span>);</span><br/>');
+                $('#jsoncode').append('<span class="white">                    $( <span class="url">"#data"</span>).append(tr);</span><br/>');
+                $('#jsoncode').append('<span class="white">                }</span><br/>');
+                $('#jsoncode').append('<span class="white">            },</span><br/>');
+                $('#jsoncode').append('<span class="white">            error: function (request, status, error, xhr) {</span><br/>');
+                $('#jsoncode').append('<span class="white">                alert( <span class="url">"error"</span>);</span><br/>');
+                $('#jsoncode').append('<span class="white">            }</span><br/>');
+                $('#jsoncode').append('<span class="white">        });</span><br/>');
+                $('#jsoncode').append('<span class="white">    });</span><br/>');
+                $('#jsoncode').append('<span class="white">&lt;/<span class="script">script</span>&gt;</span><br/>');                
+            });
+
+            $('#controllerclick').click(function() {
+                 $('#controller').empty();
+                $('#controller').append(preclass);
+                $('#codigo').append('<span class="white">CONTROLLER</span><br/>');
+            });
+
+
+        });
+
+
+    });
+    </script>
+
+
+
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+
+
+
+
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+<!-- Modal -->
+<div id="modalCode" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="principalModal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><label id="labelHeader"></label></h4>
+      </div>
+      <div class="modal-body" id="modalContent">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <!-- jQuery -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
